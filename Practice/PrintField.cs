@@ -12,8 +12,8 @@ namespace Practice
 					if (y == 0 || y == screenY - 1) Console.Write("-");
 					else if (x == 0 || x == screenX - 1) Console.Write("|");
 					else if (ball.cordX == x && ball.cordY == y) Console.Write("o");
-					else if (x == 1 && (rackets.leftCord == y || rackets.leftCord + 1 == y || rackets.leftCord + 2 == y)) Console.Write("]");
-					else if (x == screenX - 2 && (rackets.rightCord == y || rackets.rightCord + 1 == y || rackets.rightCord + 2 == y)) Console.Write("[");
+					else if (x == 1 && (rackets.leftCord <= y && rackets.leftCord + rackets.size > y)) Console.Write("]");
+					else if (x == screenX - 2 && (rackets.rightCord <= y && rackets.rightCord + rackets.size > y)) Console.Write("[");
 					else if (x == screenX / 2) Console.Write(":");
 					else Console.Write(" ");
 				}
