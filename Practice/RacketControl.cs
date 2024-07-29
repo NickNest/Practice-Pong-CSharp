@@ -3,21 +3,21 @@ namespace Practice
 {
 	public class RacketControl
 	{
-		public static void MoveRacketControl(ref Racket rackets, ConsoleKey key, int screenY)
+		public static void MoveRacketControl(ref Racket rackets, ConsoleKey key, int screenY, int fieldBoardSize)
 		{
 			switch (key)
 			{
 				case ConsoleKey.A:
-					if (rackets.leftCord > 1) rackets.leftCord--;
+					if (rackets.leftCord > fieldBoardSize) rackets.leftCord--;
 					break;
 				case ConsoleKey.Z:
-                    if (rackets.leftCord < screenY - 2) rackets.leftCord++;
+                    if (rackets.leftCord < screenY - rackets.size - fieldBoardSize) rackets.leftCord++;
                     break;
 				case ConsoleKey.K:
-                    if (rackets.rightCord > 1) rackets.rightCord--;
+                    if (rackets.rightCord > fieldBoardSize) rackets.rightCord--;
                     break;
 				case ConsoleKey.M:
-                    if (rackets.rightCord < screenY - 2) rackets.rightCord++;
+                    if (rackets.rightCord < screenY - rackets.size - fieldBoardSize) rackets.rightCord++;
                     break;
 			}
 		}

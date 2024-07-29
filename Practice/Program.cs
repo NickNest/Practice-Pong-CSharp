@@ -2,11 +2,14 @@
 class Program
 {
     private const int _screenY = 25, _screenX = 80;
+    private const int _fieldBoardSize = 1;
     static void Main(string[] args)
     {
+
         Racket rackets = new();
         Ball ball = new();
 
+        rackets.size = 3;
         rackets.leftCord = 4;
         rackets.rightCord = 5;
         ball.cordX = 15;
@@ -16,7 +19,7 @@ class Program
         {
             PrintField.PrintFieldGraphic(ball, rackets, _screenX, _screenY);
             userInput = Console.ReadKey(true);
-            RacketControl.MoveRacketControl(rackets, userInput.Key, _screenY);
+            RacketControl.MoveRacketControl(ref rackets, userInput.Key, _screenY, _fieldBoardSize);
 
         }
         

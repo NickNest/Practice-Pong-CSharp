@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Learning C#\\Practice-Pong-CSharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E48F6C58-3554-4C38-9603-CA41A45A35C7}|Practice\\Practice.csproj|d:\\learning c#\\practice-pong-csharp\\practice\\ballcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48F6C58-3554-4C38-9603-CA41A45A35C7}|Practice\\Practice.csproj|solutionrelative:practice\\ballcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48F6C58-3554-4C38-9603-CA41A45A35C7}|Practice\\Practice.csproj|d:\\learning c#\\practice-pong-csharp\\practice\\racketcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48F6C58-3554-4C38-9603-CA41A45A35C7}|Practice\\Practice.csproj|solutionrelative:practice\\racketcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48F6C58-3554-4C38-9603-CA41A45A35C7}|Practice\\Practice.csproj|d:\\learning c#\\practice-pong-csharp\\practice\\racket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48F6C58-3554-4C38-9603-CA41A45A35C7}|Practice\\Practice.csproj|solutionrelative:practice\\racket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48F6C58-3554-4C38-9603-CA41A45A35C7}|Practice\\Practice.csproj|d:\\learning c#\\practice-pong-csharp\\practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48F6C58-3554-4C38-9603-CA41A45A35C7}|Practice\\Practice.csproj|solutionrelative:practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48F6C58-3554-4C38-9603-CA41A45A35C7}|Practice\\Practice.csproj|d:\\learning c#\\practice-pong-csharp\\practice\\printfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48F6C58-3554-4C38-9603-CA41A45A35C7}|Practice\\Practice.csproj|solutionrelative:practice\\printfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PrintField.cs",
+              "DocumentMoniker": "D:\\Learning C#\\Practice-Pong-CSharp\\Practice\\PrintField.cs",
+              "RelativeDocumentMoniker": "Practice\\PrintField.cs",
+              "ToolTip": "D:\\Learning C#\\Practice-Pong-CSharp\\Practice\\PrintField.cs",
+              "RelativeToolTip": "Practice\\PrintField.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:16:42.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Racket.cs",
+              "DocumentMoniker": "D:\\Learning C#\\Practice-Pong-CSharp\\Practice\\Racket.cs",
+              "RelativeDocumentMoniker": "Practice\\Racket.cs",
+              "ToolTip": "D:\\Learning C#\\Practice-Pong-CSharp\\Practice\\Racket.cs",
+              "RelativeToolTip": "Practice\\Racket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:08:44.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RacketControl.cs",
+              "DocumentMoniker": "D:\\Learning C#\\Practice-Pong-CSharp\\Practice\\RacketControl.cs",
+              "RelativeDocumentMoniker": "Practice\\RacketControl.cs",
+              "ToolTip": "D:\\Learning C#\\Practice-Pong-CSharp\\Practice\\RacketControl.cs",
+              "RelativeToolTip": "Practice\\RacketControl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:08:46.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BallControl.cs",
+              "DocumentMoniker": "D:\\Learning C#\\Practice-Pong-CSharp\\Practice\\BallControl.cs",
+              "RelativeDocumentMoniker": "Practice\\BallControl.cs",
+              "ToolTip": "D:\\Learning C#\\Practice-Pong-CSharp\\Practice\\BallControl.cs",
+              "RelativeToolTip": "Practice\\BallControl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:06:38.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Learning C#\\Practice-Pong-CSharp\\Practice\\Program.cs",
+              "RelativeDocumentMoniker": "Practice\\Program.cs",
+              "ToolTip": "D:\\Learning C#\\Practice-Pong-CSharp\\Practice\\Program.cs",
+              "RelativeToolTip": "Practice\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:02:19.922Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

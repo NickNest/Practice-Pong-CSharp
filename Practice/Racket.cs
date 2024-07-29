@@ -5,6 +5,7 @@ namespace Practice
 	{
 		public int leftCord;
 		public int rightCord;
+		public int size;
 	}
 }
 
