@@ -8,6 +8,10 @@ class Program
 
         Racket rackets = new();
         Ball ball = new();
+        Score score = new();
+
+        score.leftPlayerScore = 0;
+        score.rightPlayerScore = 0;
 
         rackets.size = 6;
         rackets.leftCord = 4;
@@ -18,13 +22,15 @@ class Program
         ball.vectorX = -1;
         ball.vectorY = -1;
 
-        var userInput = Console.ReadKey(true);
-        while (userInput.Key != ConsoleKey.Q)
+        while (true)
         {
             PrintField.PrintFieldGraphic(ball, rackets, _screenX, _screenY);
-            userInput = Console.ReadKey(true);
+            var userInput = Console.ReadKey(true);
+            if (userInput.Key != ConsoleKey.Q) break;
             RacketControl.MoveRacketControl(ref rackets, userInput.Key, _screenY, _fieldBoardSize);
             BallControl.BallController(ref ball, rackets, _screenX, _screenY);
+            Scoring.IsScoring(ball, ref score, _screenX);
+            if (Scoring.IsWining(score)) break;
         }
         
     }
