@@ -5,6 +5,8 @@ namespace Practice
 	{
 		public static void PrintFieldGraphic(Ball ball, Racket rackets, int screenX, int screenY)
 		{
+			Console.SetCursorPosition(0, 0);
+			Console.CursorVisible = false;
 			for (int y = 0; y < screenY; y++)
 			{
 				for (int x = 0; x < screenX; x++)
