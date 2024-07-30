@@ -22,5 +22,12 @@ namespace Practice
             ball.cordX += ball.vectorX;
             ball.cordY += ball.vectorY;
         }
+        public static void BallRestart(ref Ball ball, int screenX, int screenY)
+        {
+            ball.cordX = screenX / 2;
+            ball.cordY = screenY / 2;
+            ball.vectorX *= -1; 
+            ball.vectorY *= -1;
+        }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Practice
 {
-	public class PrintField
+	public class Print
 	{
 		public static void PrintFieldGraphic(Ball ball, Racket rackets, int screenX, int screenY)
 		{
@@ -19,6 +19,10 @@ namespace Practice
 				}
 				Console.WriteLine();
 			}
+		}
+		public static void PrintPlayersScore(Score score)
+		{
+			Console.WriteLine($"Left player score: {score.leftPlayerScore} | Right player score: {score.rightPlayerScore}");
 		}
 	}
 }

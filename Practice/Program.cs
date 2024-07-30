@@ -24,12 +24,13 @@ class Program
 
         while (true)
         {
-            PrintField.PrintFieldGraphic(ball, rackets, _screenX, _screenY);
+            Print.PrintFieldGraphic(ball, rackets, _screenX, _screenY);
+            Print.PrintPlayersScore(score);
             var userInput = Console.ReadKey(true);
-            if (userInput.Key != ConsoleKey.Q) break;
+            if (userInput.Key == ConsoleKey.Q) break;
             RacketControl.MoveRacketControl(ref rackets, userInput.Key, _screenY, _fieldBoardSize);
             BallControl.BallController(ref ball, rackets, _screenX, _screenY);
-            Scoring.IsScoring(ball, ref score, _screenX);
+            if (Scoring.IsScoring(ball, ref score, _screenX)) BallControl.BallRestart(ref ball, _screenX, _screenY);
             if (Scoring.IsWining(score)) break;
         }
         
